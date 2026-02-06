@@ -32,5 +32,6 @@ ___________________________
 ## Ethical and legal considerations
 All testing must be performed in an isolated, authorized environment. ARP spoofing and traffic interception without explicit permission are illegal and unethical. The lab was executed under explicit authorization and documented for defensive improvement.
 
-### Reproducibility notes
+### Notes
+NOTE: The complete project is included in this repository and can be exported and tested directly in a EVE-NG environment.
 
