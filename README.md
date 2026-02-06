@@ -1,7 +1,7 @@
-# Man-In-The-Middle
+# Man-In-The-Middle (ARP poisoning) — EVE‑NG lab
+______________________
 
-Man‑in‑the‑Middle (ARP poisoning) — EVE‑NG lab
-Summary
+##Summary
 Controlled EVE‑NG laboratory demonstrating ARP cache poisoning to perform a transparent Man‑in‑the‑Middle (MITM) on a local subnet and comparing credential exposure between an insecure HTTP web application and a secured HTTPS application with application‑level protections.
 
 Objectives
