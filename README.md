@@ -1,17 +1,15 @@
 # Man-In-The-Middle (ARP poisoning) — EVE‑NG lab
 ______________________
 
-##Summary
+## Summary
 Controlled EVE‑NG laboratory demonstrating ARP cache poisoning to perform a transparent Man‑in‑the‑Middle (MITM) on a local subnet and comparing credential exposure between an insecure HTTP web application and a secured HTTPS application with application‑level protections.
 
-Objectives
+- Objectives
 Reproduce ARP spoofing to redirect traffic between a victim and the gateway.
-
 Capture and analyze intercepted traffic to assess credential exposure.
-
 Evaluate the effectiveness of transport encryption and application controls (TLS, CSRF, secure cookie attributes, security headers).
 
-Topology overview
+- Topology overview
 Isolated EVE‑NG environment with gateway/router, victim host, and a combined server/attacker host. The server host runs two Flask test applications and also performs the ARP‑spoofing and packet capture; IP forwarding is enabled on that host to maintain transparent traffic relay while inspecting packets.
 
 Tools and components
